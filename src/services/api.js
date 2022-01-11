@@ -18,10 +18,6 @@ const saveContact = (endpoint, elem) => {
   return fetchData(endpoint, options);
 };
 
-const deleteContact = (endpoint, id) => {
-  fetchData(`${endpoint}/${id}`, {
-    method: "DELETE",
-  });
-};
+const deleteContact = (endpoint, id) => fetchData(`${endpoint}/${id}`, { method: "DELETE", });
 
 export { getUtterContacts, saveContact, deleteContact };

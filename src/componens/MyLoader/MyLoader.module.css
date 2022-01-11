@@ -1,9 +1,10 @@
 .loader {
-  width: 100px;
-  height: 100px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  border: 3px dashed teal;
+  border: 3px dashed whitesmoke;
   animation: rotate 1s infinite linear;
+  margin: 0 auto;
 }
 
 @keyframes rotate {
